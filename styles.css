@@ -1133,9 +1133,11 @@ hr {
   .my-recent-work-card-container {
     height: 2198px;
   }
+
   .my-recent-work-container {
     height: 2264px;
   }
+
   .card-work-row-1 {
     width: 98.63%;
     height: 980px;
@@ -1147,10 +1149,12 @@ hr {
     align-items: center;
     justify-content: right;
   }
+
   .card-3 {
     margin-left: 50%;
     margin-right: 50%;
   }
+
   .card-work-row-2 {
     width: 98.63%;
     height: 980px;
@@ -1160,26 +1164,32 @@ hr {
     align-items: center;
     justify-content: center;
   }
+
   .card-6 {
     margin-left: 50%;
     margin-right: 50%;
   }
+
   .about-me-sub-container {
     height: 1100px;
     margin-top: -235px;
   }
+
   .grid-sub-items-skills {
     margin-left: 50%;
     margin-right: -50%;
   }
+
   .mask-group {
     width: 15%;
     height: 15.32%;
     align-self: flex-end;
   }
+
   .get-my-resume {
     margin-top: 70px;
   }
+
   .card-container {
     width: 81.32%;
     height: 730px;
@@ -1189,24 +1199,29 @@ hr {
     grid-gap: 20px;
     justify-content: center;
   }
+
   .fram {
     width: 17%;
     height: 7.96%;
     align-self: flex-start;
     margin-top: -950px;
   }
+
   .contact-form-container {
     margin-top: 0;
   }
+
   .description {
     margin-top: 35px;
     height: 53%;
   }
+
   .illustration-1-contact-form {
     margin-top: 220px;
     width: 10.39%;
     height: 180px;
   }
+
   .contact-form-illustration-3 {
     width: 10%;
     height: 300px;
@@ -1221,6 +1236,7 @@ hr {
     /* background-position: center; */
     background-size: 100% 90%;
   }
+
   .text-container {
     width: 100%;
     height: 620px;
@@ -1228,38 +1244,48 @@ hr {
     flex-direction: column;
     margin-top: 0;
   }
+
   .primary-text {
     width: 100%;
     height: 300px;
   }
+
   .supporting-text {
     width: 100%;
     height: 400px;
   }
+
   .supporting-text-p {
     margin-top: -180px;
   }
+
   .action {
     height: 50px;
     display: flex;
     align-items: center;
   }
+
   .normal-button {
     margin-top: -1px;
   }
+
   .my-recent-work-card-container {
     height: 3134px;
   }
+
   .my-recent-work-card-container {
     height: 3134px;
   }
+
   .my-recent-work-container {
     height: 3200px;
   }
+
   .my-recent-work-text {
     font-size: 30px;
     width: 300px;
   }
+
   .card-work-row-1 {
     width: 98.63%;
     height: 1470px;
@@ -1268,9 +1294,11 @@ hr {
     align-items: center;
     justify-content: center;
   }
+
   .card-3 {
     margin-left: 0;
   }
+
   .card-work-row-2 {
     width: 98.63%;
     height: 1470px;
@@ -1281,43 +1309,52 @@ hr {
     justify-content: center;
     margin-top: -4px;
   }
+
   .card-6 {
     margin-left: 0;
   }
+
   .about-me-container {
     margin-top: 0;
     height: 410px;
     display: flex;
     flex-direction: column;
   }
+
   .about-me-sub-container {
     width: 100%;
     height: 410px;
     margin-top: -25px;
   }
+
   .about-me {
     margin-top: 50px;
     width: 100%;
     height: 600px;
   }
+
   .about-me-supporting-text {
     height: 200px;
   }
+
   .get-my-resume {
     margin-top: 40px;
   }
+
   .mask-group {
     width: 15%;
     height: 30.32%;
     align-self: flex-end;
     margin-bottom: -100px;
   }
+
   .fram {
     width: 17%;
     height: 15.96%;
     align-self: flex-start;
     margin-top: -100px;
   }
+
   .card-container {
     width: 81.32%;
     height: 1130px;
@@ -1327,6 +1364,7 @@ hr {
     grid-gap: 20px;
     justify-content: center;
   }
+
   .grid-sub-items-skills {
     width: 100%;
     margin-left: 0;
