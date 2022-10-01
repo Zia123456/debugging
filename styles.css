@@ -446,6 +446,7 @@ ul {
     margin-top: 0;
     height: 1105px;
   }
+
   .about-me {
     margin-top: -200px;
   }
@@ -1027,7 +1028,7 @@ ul {
   height: 48px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #email {
@@ -1233,7 +1234,6 @@ hr {
   .header-container {
     background-image: url(images/Header-llustration-desktop.png);
     background-repeat: no-repeat;
-    /* background-position: center; */
     background-size: 100% 90%;
   }
 
@@ -1267,10 +1267,6 @@ hr {
 
   .normal-button {
     margin-top: -1px;
-  }
-
-  .my-recent-work-card-container {
-    height: 3134px;
   }
 
   .my-recent-work-card-container {
