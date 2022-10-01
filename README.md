@@ -14,7 +14,7 @@ for opennig index.html go to zia_profile directory, find index.html, right click
 ### 🧑🏻 Author1
 - GitHub: [@zia123456](https://github.com/Zia123456)
 - Twitter: @zia_bakhteyari
-- LinkedIn: Zia bakhteyari
+- LinkedIn: [Zia bakhteyari](https://www.linkedin.com/in/mohammad-zia-bakhteyari-8b8a861a5/)
 - 
 ### 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
