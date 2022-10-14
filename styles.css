@@ -1093,6 +1093,16 @@ input[type="email"] {
   background-color: #008552;
 }
 
+.error-message {
+  background-color: rgb(255, 68, 0);
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 18.5%;
+  color: #fff;
+  position: absolute;
+}
+
 .bottom-img {
   display: flex;
   justify-content: space-between;
