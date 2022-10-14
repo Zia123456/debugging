@@ -287,3 +287,21 @@ clickToPopUp.forEach((seeProject) => {
     x.addListener(myFunction); // Attach listener function on state changes
   });
 });
+
+// js to validate form
+const form = document.querySelector("form");
+// const contactFormDiv = document.querySelector(".contact-form");
+const errorMessage = document.createElement("span");
+errorMessage.className = "error-message";
+form.appendChild(errorMessage);
+
+// when the user submit the form
+form.addEventListener("submit", (event) => {
+  const email = document.getElementById("email").value;
+  if (email !== email.toLowerCase()) {
+    errorMessage.innerHTML = "<p>email must be in lowercase</p>";
+    event.preventDefault();
+  } else {
+    errorMessage.innerHTML = "";
+  }
+});
