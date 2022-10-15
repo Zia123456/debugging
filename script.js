@@ -290,12 +290,12 @@ clickToPopUp.forEach((seeProject) => {
 
 // js to validate form
 const form = document.querySelector("form");
-// const contactFormDiv = document.querySelector(".contact-form");
 const errorMessage = document.createElement("span");
 errorMessage.className = "error-message";
 form.appendChild(errorMessage);
 
 // when the user submit the form
+
 form.addEventListener("submit", (event) => {
   const email = document.getElementById("email").value;
   if (email !== email.toLowerCase()) {
@@ -305,3 +305,35 @@ form.addEventListener("submit", (event) => {
     errorMessage.innerHTML = "";
   }
 });
+
+//  Create input variables
+const userName = document.getElementById("fullname");
+const userEmail = document.getElementById("email");
+const userMessage = document.getElementById("textarea-size");
+
+// Object to store user data
+const userData = {
+  nameInput: userName,
+  emailInput: userEmail,
+  messageInput: userMessage,
+};
+
+// Store data using localStorage
+function storeData() {
+  userData.nameInput = userName.value;
+  userData.emailInput = userEmail.value;
+  userData.messageInput = userMessage.value;
+  localStorage.setItem("userData", JSON.stringify(userData));
+}
+
+// call storeData at every event
+userName.addEventListener("keyup", storeData);
+userEmail.addEventListener("keyup", storeData);
+userMessage.addEventListener("keyup", storeData);
+
+// Check for info in local-storage
+const savedUserData = localStorage.getItem("userData");
+document.getElementById("fullname").value = JSON.parse(savedUserData).nameInput;
+document.getElementById("email").value = JSON.parse(savedUserData).emailInput;
+document.getElementById("textarea-size").value =
+  JSON.parse(savedUserData).messageInput;
