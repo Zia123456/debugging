@@ -296,7 +296,7 @@ form.appendChild(errorMessage);
 
 // when the user submit the form
 
-form.addEventListener("submit", (event) => {
+form.addEventListener("submit", ("event") => {
   const email = document.getElementById("email").value;
   if (email !== email.toLowerCase()) {
     errorMessage.innerHTML = "<p>email must be in lowercase</p>";
